@@ -46,7 +46,7 @@ and install the dependencies
 ```
 npm install
 ```
-then run
+then start the server
 ```
 npm start
 ```
