@@ -74,6 +74,10 @@ node format.js
 
 ### using postman
 #### API Reference
+make sure the server is running first go to Code/code_simple_solution and start the server if it is not running
+```
+npm start
+```
 
 http `POST` method
 ```http
