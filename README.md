@@ -7,7 +7,7 @@
 ## file structure
 
 ```bash
- Coding/
+Coding/
 |-- code_mvc_solution/
 |   |-- controllers/
 |   |-- models/
