@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "304c3fdf-4969-46e8-b0cb-bb0cf34e551a",
+		"name": "ZainCash Product Development Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20468482"
+	},
+	"item": [
+		{
+			"name": "group employee to files",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "C:\\Users\\Ahmed\\Desktop\\zaincash_test\\test.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/organize-files",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"organize-files"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
